@@ -1,0 +1,11 @@
+training and data parameters:
+epochs = 250
+learning_rate = 0.0005
+batch_size = 10
+train_on_vortex = False
+data_set_normalization = True
+model parameters:
+model.name = CustomNN
+train_data.state = spin angles
+train_data.normalized_data = True
+model.L = 8

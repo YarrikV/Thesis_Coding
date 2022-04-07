@@ -1,0 +1,11 @@
+training and data parameters:
+epochs = 100
+learning_rate = 0.001
+batch_size = 5
+train_on_vortex = False
+data_set_normalization = True
+model parameters:
+model.name = FFNN
+train_data.state = spin angles
+train_data.normalized_data = True
+model.L = 8
